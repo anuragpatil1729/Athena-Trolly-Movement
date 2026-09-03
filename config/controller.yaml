@@ -1,0 +1,37 @@
+controller:
+
+  # Main control-loop frequency
+  loop_frequency_hz: 50
+
+
+straight_path:
+
+  enabled: true
+
+  # PID values will be tuned experimentally.
+
+  kp: 0.0
+
+  ki: 0.0
+
+  kd: 0.0
+
+  base_speed_mps: 0.0
+
+
+curve_path:
+
+  enabled: true
+
+  base_speed_mps: 0.0
+
+  max_speed_mps: 0.0
+
+
+safety:
+
+  max_deflection_deg: 0.0
+
+  max_command_percent: 100
+
+  emergency_stop_enabled: true

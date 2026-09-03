@@ -1,0 +1,7 @@
+logging:
+
+  level: "INFO"
+
+  file: "logs/agv.log"
+
+  console: true

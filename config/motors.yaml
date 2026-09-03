@@ -1,0 +1,49 @@
+motor_driver:
+
+  type: "SmartElex_10D"
+
+  # SmartElex 10D:
+  #
+  # Motor 1:
+  #   PWM1 = Raspberry Pi GPIO12 / BCM32
+  #   DIR1 = Raspberry Pi GPIO24 / BCM18
+  #
+  # Motor 2:
+  #   PWM2 = Raspberry Pi GPIO13 / BCM33
+  #   DIR2 = Raspberry Pi GPIO25 / BCM22
+  #
+  # Verify wiring before enabling hardware control.
+
+motor_1:
+
+  name: "left_drive_motor"
+
+  pwm_pin: null
+
+  dir_pin: null
+
+  inverted: false
+
+  max_pwm_percent: 100
+
+
+motor_2:
+
+  name: "right_drive_motor"
+
+  pwm_pin: null
+
+  dir_pin: null
+
+  inverted: false
+
+  max_pwm_percent: 100
+
+
+pwm:
+
+  frequency_hz: 1000
+
+  min_percent: 0
+
+  max_percent: 100

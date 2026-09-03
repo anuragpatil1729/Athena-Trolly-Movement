@@ -1,0 +1,57 @@
+sensors:
+
+  type: "potentiometer"
+
+  count: 3
+
+
+sensor_1:
+
+  name: "front_deflection_sensor"
+
+  adc_channel: null
+
+  raw_min: null
+
+  raw_max: null
+
+  angle_min_deg: null
+
+  angle_max_deg: null
+
+
+sensor_2:
+
+  name: "middle_deflection_sensor"
+
+  adc_channel: null
+
+  raw_min: null
+
+  raw_max: null
+
+  angle_min_deg: null
+
+  angle_max_deg: null
+
+
+sensor_3:
+
+  name: "rear_deflection_sensor"
+
+  adc_channel: null
+
+  raw_min: null
+
+  raw_max: null
+
+  angle_min_deg: null
+
+  angle_max_deg: null
+
+
+adc:
+
+  type: "UNKNOWN"
+
+  channels: 3

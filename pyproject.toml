@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "warehouse-agv"
+version = "0.1.0"
+description = "Warehouse AGV controller using parametric paths"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "openpyxl",
+    "sympy",
+    "scipy",
+    "matplotlib",
+    "PyYAML"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

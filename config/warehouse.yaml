@@ -1,0 +1,10 @@
+warehouse:
+
+  # Original Excel path data
+  path_file: "data/raw/AGV Turn Dynamics Excel.xlsx"
+
+  coordinate_units: "UNKNOWN"
+
+  current_node: null
+
+  target_node: null
