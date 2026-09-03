@@ -18,9 +18,9 @@ motor_1:
 
   name: "left_drive_motor"
 
-  pwm_pin: null
+  pwm_pin: 12
 
-  dir_pin: null
+  dir_pin: 24
 
   inverted: false
 
